@@ -3,17 +3,18 @@
 package dashboard
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/dashboard/dashboardutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/iwind/TeaGo/maps"
 	"regexp"
+
+	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeAdmin/internal/utils/numberutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/dashboard/dashboardutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/helpers"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 type IndexAction struct {

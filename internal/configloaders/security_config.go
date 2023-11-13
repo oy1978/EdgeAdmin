@@ -2,12 +2,13 @@ package configloaders
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/events"
-	"github.com/TeaOSLab/EdgeAdmin/internal/rpc"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/systemconfigs"
-	"github.com/iwind/TeaGo/logs"
 	"reflect"
+
+	"github.com/iwind/TeaGo/logs"
+	"github.com/oy1978/EdgeAdmin/internal/events"
+	"github.com/oy1978/EdgeAdmin/internal/rpc"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/systemconfigs"
 )
 
 const (

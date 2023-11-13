@@ -1,19 +1,20 @@
 package helpers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/events"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/iplibrary"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/regionconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/systemconfigs"
-	"github.com/iwind/TeaGo/lists"
-	"github.com/iwind/TeaGo/logs"
 	"net"
 	"net/http"
 	"net/url"
 	"regexp"
 	"sync"
+
+	"github.com/iwind/TeaGo/lists"
+	"github.com/iwind/TeaGo/logs"
+	"github.com/oy1978/EdgeAdmin/internal/events"
+	"github.com/oy1978/EdgeAdmin/internal/utils"
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
+	"github.com/oy1978/EdgeCommon/pkg/iplibrary"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/regionconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/systemconfigs"
 )
 
 var ipCacheMap = map[string]bool{} // ip => bool

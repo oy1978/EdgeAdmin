@@ -1,6 +1,6 @@
 package configloaders
 
-import "github.com/TeaOSLab/EdgeCommon/pkg/systemconfigs"
+import "github.com/oy1978/EdgeCommon/pkg/systemconfigs"
 
 type AdminModuleList struct {
 	IsSuper  bool

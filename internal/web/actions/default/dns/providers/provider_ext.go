@@ -4,8 +4,8 @@
 package providers
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 func (this *ProviderAction) readEdgeDNS(provider *pb.DNSProvider, apiParams maps.Map) (maps.Map, error) {

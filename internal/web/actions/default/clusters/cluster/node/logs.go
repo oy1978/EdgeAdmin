@@ -1,13 +1,13 @@
 package node
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/nodelogutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/nodeutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/maps"
 	timeutil "github.com/iwind/TeaGo/utils/time"
+	"github.com/oy1978/EdgeAdmin/internal/utils/nodelogutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/nodeutils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 type LogsAction struct {

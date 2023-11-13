@@ -1,12 +1,12 @@
 package dns
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/dns/domains/domainutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/dns/domains/domainutils"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 // UpdateClusterPopupAction 修改集群的DNS设置

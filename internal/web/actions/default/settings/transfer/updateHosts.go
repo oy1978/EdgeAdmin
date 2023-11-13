@@ -5,13 +5,14 @@ package transfer
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/configs"
-	"github.com/TeaOSLab/EdgeAdmin/internal/rpc"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
+
 	"github.com/iwind/TeaGo/lists"
+	"github.com/oy1978/EdgeAdmin/internal/configs"
+	"github.com/oy1978/EdgeAdmin/internal/rpc"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 type UpdateHostsAction struct {

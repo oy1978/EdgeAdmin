@@ -1,12 +1,13 @@
 package database
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"sort"
+
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
-	"sort"
+	"github.com/oy1978/EdgeAdmin/internal/utils/numberutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 type CleanAction struct {

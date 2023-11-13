@@ -4,9 +4,9 @@
 package locationutils
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 func (this *LocationHelper) filterMenuItems1(locationConfig *serverconfigs.HTTPLocationConfig, menuItems []maps.Map, serverIdString string, locationIdString string, secondMenuItem string, actionPtr actions.ActionWrapper) []maps.Map {

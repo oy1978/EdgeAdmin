@@ -1,9 +1,10 @@
 package setup
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
 	"net"
 	"strings"
+
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
 )
 
 type IndexAction struct {

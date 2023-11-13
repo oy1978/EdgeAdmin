@@ -3,16 +3,17 @@ package node
 import (
 	"encoding/json"
 	"fmt"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/sslconfigs"
+	"time"
+
 	"github.com/iwind/TeaGo/maps"
 	stringutil "github.com/iwind/TeaGo/utils/string"
-	"time"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeAdmin/internal/utils/numberutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/sslconfigs"
 )
 
 type IndexAction struct {

@@ -3,11 +3,11 @@
 package charts
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/metrics/charts/chartutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/metrics/metricutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/servers/metrics/charts/chartutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/servers/metrics/metricutils"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 type ChartAction struct {

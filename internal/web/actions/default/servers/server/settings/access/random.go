@@ -3,8 +3,8 @@
 package access
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
 	"github.com/iwind/TeaGo/rands"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
 )
 
 type RandomAction struct {

@@ -2,10 +2,11 @@ package waf
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/firewallconfigs"
 )
 
 type IndexAction struct {

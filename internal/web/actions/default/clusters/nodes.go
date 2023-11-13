@@ -4,16 +4,17 @@ package clusters
 
 import (
 	"encoding/json"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"strconv"
+	"time"
+
 	"github.com/iwind/TeaGo/logs"
 	"github.com/iwind/TeaGo/maps"
 	"github.com/iwind/TeaGo/types"
-	"strconv"
-	"time"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeAdmin/internal/utils/numberutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 type NodesAction struct {

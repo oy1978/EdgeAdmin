@@ -2,15 +2,16 @@ package waf
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/iplibrary"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+	"regexp"
+	"strings"
+
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/maps"
 	timeutil "github.com/iwind/TeaGo/utils/time"
-	"regexp"
-	"strings"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/iplibrary"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/firewallconfigs"
 )
 
 type LogAction struct {

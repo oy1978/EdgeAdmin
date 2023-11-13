@@ -1,14 +1,15 @@
 package database
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
+	"os"
+	"strings"
+
 	"github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
 	"gopkg.in/yaml.v3"
-	"os"
-	"strings"
 )
 
 type IndexAction struct {

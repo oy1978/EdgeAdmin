@@ -1,9 +1,9 @@
 package headers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
 	"github.com/iwind/TeaGo"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	"github.com/oy1978/EdgeAdmin/internal/web/helpers"
 )
 
 func init() {

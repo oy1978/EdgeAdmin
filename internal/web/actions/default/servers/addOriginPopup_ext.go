@@ -4,8 +4,8 @@
 package servers
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/ossconfigs"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/ossconfigs"
 )
 
 func (this *AddOriginPopupAction) getOSSHook() {

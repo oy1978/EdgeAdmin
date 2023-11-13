@@ -6,17 +6,18 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/server/settings/conds/condutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
-	"github.com/iwind/TeaGo/Tea"
-	"github.com/iwind/TeaGo/files"
-	"github.com/iwind/TeaGo/logs"
 	"io"
 	"os"
 	"path/filepath"
+
+	"github.com/iwind/TeaGo/Tea"
+	"github.com/iwind/TeaGo/files"
+	"github.com/iwind/TeaGo/logs"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/servers/server/settings/conds/condutils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 func Generate() error {

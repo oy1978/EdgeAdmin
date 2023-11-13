@@ -2,14 +2,15 @@ package ipAddresses
 
 import (
 	"encoding/json"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/nodes/ipAddresses/ipaddressutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
+	"net"
+
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
-	"net"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeAdmin/internal/utils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/nodes/ipAddresses/ipaddressutils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 )
 
 type CreatePopupAction struct {

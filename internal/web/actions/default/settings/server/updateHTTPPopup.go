@@ -1,12 +1,13 @@
 package server
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	adminserverutils "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/settings/server/admin-server-utils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/iwind/TeaGo/actions"
 	"net"
+
+	"github.com/iwind/TeaGo/actions"
+	"github.com/oy1978/EdgeAdmin/internal/utils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	adminserverutils "github.com/oy1978/EdgeAdmin/internal/web/actions/default/settings/server/admin-server-utils"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
 )
 
 type UpdateHTTPPopupAction struct {

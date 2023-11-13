@@ -6,15 +6,16 @@ import (
 	"bytes"
 	"context"
 	"crypto/tls"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/sslconfigs"
-	"github.com/iwind/TeaGo/actions"
-	"github.com/iwind/TeaGo/types"
 	"io"
 	"mime/multipart"
 	"strings"
+
+	"github.com/iwind/TeaGo/actions"
+	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/sslconfigs"
 )
 
 // UploadBatchPopupAction 批量上传证书

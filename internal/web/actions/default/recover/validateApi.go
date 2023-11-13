@@ -2,16 +2,17 @@ package recovers
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/configs"
-	"github.com/TeaOSLab/EdgeAdmin/internal/rpc"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
+	"strings"
+
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/maps"
-	"strings"
+	"github.com/oy1978/EdgeAdmin/internal/configs"
+	"github.com/oy1978/EdgeAdmin/internal/rpc"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 type ValidateApiAction struct {

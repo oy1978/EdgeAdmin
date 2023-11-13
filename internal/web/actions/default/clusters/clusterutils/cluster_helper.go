@@ -1,18 +1,19 @@
 package clusterutils
 
 import (
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/dao"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"net/http"
+	"strconv"
+
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/logs"
 	"github.com/iwind/TeaGo/maps"
-	"net/http"
-	"strconv"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeAdmin/internal/utils/numberutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/helpers"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/dao"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 // ClusterHelper 单个集群的帮助

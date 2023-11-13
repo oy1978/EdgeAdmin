@@ -3,17 +3,18 @@ package node
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/grants/grantutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/nodes/ipAddresses/ipaddressutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
+	"time"
+
 	"github.com/iwind/TeaGo/maps"
 	timeutil "github.com/iwind/TeaGo/utils/time"
-	"time"
+	"github.com/oy1978/EdgeAdmin/internal/utils"
+	"github.com/oy1978/EdgeAdmin/internal/utils/numberutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/grants/grantutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/nodes/ipAddresses/ipaddressutils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 type DetailAction struct {

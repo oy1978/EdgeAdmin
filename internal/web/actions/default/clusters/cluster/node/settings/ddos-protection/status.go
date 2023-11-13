@@ -3,9 +3,9 @@
 package ddosProtection
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/nodes/nodeutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/messageconfigs"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/nodes/nodeutils"
+	"github.com/oy1978/EdgeCommon/pkg/messageconfigs"
 )
 
 type StatusAction struct {

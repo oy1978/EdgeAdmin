@@ -1,8 +1,8 @@
 package confirm
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/setup"
 	"github.com/iwind/TeaGo/actions"
+	"github.com/oy1978/EdgeAdmin/internal/setup"
 )
 
 type Helper struct {

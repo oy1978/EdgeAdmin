@@ -2,15 +2,16 @@ package ipAddresses
 
 import (
 	"encoding/json"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/nodes/ipAddresses/ipaddressutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"net"
+
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
-	"net"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeAdmin/internal/utils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/nodes/ipAddresses/ipaddressutils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 type UpdatePopupAction struct {
@@ -108,7 +109,7 @@ func (this *UpdatePopupAction) RunPost(params struct {
 		"isOn":       params.IsOn,
 		"isUp":       isUp,
 		"thresholds": thresholds,
-		"clusters":    clusterMaps,
+		"clusters":   clusterMaps,
 	}
 
 	this.Success()

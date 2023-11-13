@@ -1,9 +1,9 @@
 package log
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
 	"github.com/iwind/TeaGo"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	"github.com/oy1978/EdgeAdmin/internal/web/helpers"
 )
 
 func init() {
@@ -17,7 +17,6 @@ func init() {
 			Post("/delete", new(DeleteAction)).
 			GetPost("/clean", new(CleanAction)).
 			GetPost("/settings", new(SettingsAction)).
-
 			EndAll()
 	})
 }

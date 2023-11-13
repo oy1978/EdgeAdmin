@@ -1,20 +1,20 @@
 package settings
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/cache"
-	ddosProtection "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/ddos-protection"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/dns"
-	firewallActions "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/firewall-actions"
-	globalServerConfig "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/global-server-config"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/health"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/metrics"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/services"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/waf"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/webp"
-	clusters "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/clusterutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
 	"github.com/iwind/TeaGo"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/cache"
+	ddosProtection "github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/ddos-protection"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/dns"
+	firewallActions "github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/firewall-actions"
+	globalServerConfig "github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/global-server-config"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/health"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/metrics"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/services"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/waf"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/settings/webp"
+	clusters "github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/clusterutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/helpers"
 )
 
 func init() {

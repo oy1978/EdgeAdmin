@@ -1,14 +1,15 @@
 package ui
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/userconfigs"
-	"github.com/iwind/TeaGo/actions"
 	"io"
+
+	"github.com/iwind/TeaGo/actions"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/userconfigs"
 )
 
 type IndexAction struct {

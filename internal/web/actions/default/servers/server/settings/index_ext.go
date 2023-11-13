@@ -4,8 +4,8 @@
 package settings
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 func (this *IndexAction) initUserPlan(server *pb.Server) {

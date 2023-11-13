@@ -3,16 +3,17 @@ package certs
 import (
 	"encoding/json"
 	"errors"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/sslconfigs"
+	"strings"
+	"time"
+
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/maps"
 	timeutil "github.com/iwind/TeaGo/utils/time"
-	"strings"
-	"time"
+	"github.com/oy1978/EdgeAdmin/internal/utils/numberutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/sslconfigs"
 )
 
 // SelectPopupAction 选择证书

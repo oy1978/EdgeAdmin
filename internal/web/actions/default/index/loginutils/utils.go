@@ -3,12 +3,13 @@
 package loginutils
 
 import (
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeCommon/pkg/iplibrary"
-	"github.com/iwind/TeaGo/actions"
-	stringutil "github.com/iwind/TeaGo/utils/string"
 	"net"
 	"net/http"
+
+	"github.com/iwind/TeaGo/actions"
+	stringutil "github.com/iwind/TeaGo/utils/string"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeCommon/pkg/iplibrary"
 )
 
 // CalculateClientFingerprint 计算客户端指纹

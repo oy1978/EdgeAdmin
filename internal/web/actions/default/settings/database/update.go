@@ -2,19 +2,20 @@ package database
 
 import (
 	"fmt"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
+	"net"
+	"os"
+	"regexp"
+	"strings"
+
 	"github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
 	"gopkg.in/yaml.v3"
-	"net"
-	"os"
-	"regexp"
-	"strings"
 )
 
 type UpdateAction struct {

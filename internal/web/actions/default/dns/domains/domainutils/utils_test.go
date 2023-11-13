@@ -3,9 +3,10 @@
 package domainutils
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/dnsconfigs"
-	"github.com/iwind/TeaGo/assert"
 	"testing"
+
+	"github.com/iwind/TeaGo/assert"
+	"github.com/oy1978/EdgeCommon/pkg/dnsconfigs"
 )
 
 func TestValidateRecordValue(t *testing.T) {

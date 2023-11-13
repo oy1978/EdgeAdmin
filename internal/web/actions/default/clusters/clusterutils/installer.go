@@ -3,12 +3,13 @@
 package clusterutils
 
 import (
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/iwind/TeaGo/Tea"
 	"path/filepath"
 	"regexp"
 	"sort"
 	"strings"
+
+	"github.com/iwind/TeaGo/Tea"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
 )
 
 type installerFile struct {

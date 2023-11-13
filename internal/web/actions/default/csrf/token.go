@@ -1,11 +1,12 @@
 package csrf
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/csrf"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
 	"sync"
 	"time"
+
+	"github.com/oy1978/EdgeAdmin/internal/csrf"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/helpers"
 )
 
 var lastTimestamp = int64(0)

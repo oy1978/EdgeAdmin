@@ -4,12 +4,13 @@ package webp
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/groups/group/servergrouputils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/dao"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
+
 	"github.com/iwind/TeaGo/actions"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/servers/groups/group/servergrouputils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/dao"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 type IndexAction struct {

@@ -2,11 +2,12 @@ package configs
 
 import (
 	"errors"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/iwind/TeaGo/Tea"
-	"gopkg.in/yaml.v3"
 	"os"
 	"path/filepath"
+
+	"github.com/iwind/TeaGo/Tea"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"gopkg.in/yaml.v3"
 )
 
 const ConfigFileName = "api_admin.yaml"

@@ -6,19 +6,20 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/rpc"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/iwind/TeaGo/lists"
-	"github.com/iwind/TeaGo/maps"
-	stringutil "github.com/iwind/TeaGo/utils/string"
-	"github.com/shirou/gopsutil/v3/disk"
 	"os"
 	"os/exec"
 	"regexp"
 	"runtime"
 	"strings"
+
+	"github.com/iwind/TeaGo/lists"
+	"github.com/iwind/TeaGo/maps"
+	stringutil "github.com/iwind/TeaGo/utils/string"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeAdmin/internal/rpc"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/shirou/gopsutil/v3/disk"
 )
 
 // CheckDiskPartitions 检查服务器磁盘空间

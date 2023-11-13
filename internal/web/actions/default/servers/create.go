@@ -2,19 +2,20 @@ package servers
 
 import (
 	"encoding/json"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/dao"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/sslconfigs"
+	"strings"
+
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/logs"
 	"github.com/iwind/TeaGo/maps"
 	"github.com/iwind/TeaGo/types"
-	"strings"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/dao"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/sslconfigs"
 )
 
 type CreateAction struct {

@@ -1,12 +1,13 @@
 package providers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/iwind/TeaGo/maps"
-	timeutil "github.com/iwind/TeaGo/utils/time"
 	"regexp"
 	"strings"
+
+	"github.com/iwind/TeaGo/maps"
+	timeutil "github.com/iwind/TeaGo/utils/time"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 type IndexAction struct {

@@ -8,16 +8,17 @@ import (
 	"crypto/md5"
 	"errors"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAdmin/internal/configs"
-	"github.com/TeaOSLab/EdgeAdmin/internal/rpc"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/iwind/TeaGo/Tea"
-	"github.com/iwind/TeaGo/types"
-	stringutil "github.com/iwind/TeaGo/utils/string"
 	"io"
 	"os"
 	"path/filepath"
 	"runtime"
+
+	"github.com/iwind/TeaGo/Tea"
+	"github.com/iwind/TeaGo/types"
+	stringutil "github.com/iwind/TeaGo/utils/string"
+	"github.com/oy1978/EdgeAdmin/internal/configs"
+	"github.com/oy1978/EdgeAdmin/internal/rpc"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 type Progress struct {

@@ -1,17 +1,18 @@
 package setup
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configs"
-	"github.com/TeaOSLab/EdgeAdmin/internal/rpc"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/iwind/TeaGo/actions"
-	"github.com/iwind/TeaGo/maps"
-	"github.com/iwind/TeaGo/types"
 	"net"
 	"regexp"
 	"strings"
+
+	"github.com/iwind/TeaGo/actions"
+	"github.com/iwind/TeaGo/maps"
+	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAdmin/internal/configs"
+	"github.com/oy1978/EdgeAdmin/internal/rpc"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 type ValidateApiAction struct {

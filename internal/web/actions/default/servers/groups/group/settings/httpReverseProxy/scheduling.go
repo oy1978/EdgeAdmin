@@ -3,11 +3,12 @@ package httpReverseProxy
 import (
 	"encoding/json"
 	"errors"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/groups/group/servergrouputils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/schedulingconfigs"
+
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/servers/groups/group/servergrouputils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/schedulingconfigs"
 )
 
 type SchedulingAction struct {

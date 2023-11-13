@@ -5,16 +5,17 @@ import (
 	"crypto/md5"
 	"encoding/json"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/server/settings/conds/condutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
+	"net/http"
+
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/files"
 	"github.com/iwind/TeaGo/logs"
-	"net/http"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/servers/server/settings/conds/condutils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 type ComponentsAction actions.Action

@@ -1,13 +1,14 @@
 package ui
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"strings"
+
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/maps"
-	"strings"
+	"github.com/oy1978/EdgeAdmin/internal/utils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 type SelectCountriesPopupAction struct {

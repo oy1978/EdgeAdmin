@@ -1,8 +1,8 @@
 package websocket
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
 	"github.com/iwind/TeaGo/actions"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
 )
 
 // 添加来源域

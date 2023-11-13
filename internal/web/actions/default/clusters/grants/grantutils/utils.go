@@ -1,9 +1,9 @@
 package grantutils
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/langs"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
 )
 
 // AllGrantMethods 所有的认证类型

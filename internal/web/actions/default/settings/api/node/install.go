@@ -1,11 +1,12 @@
 package node
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"os"
+
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/maps"
-	"os"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 type InstallAction struct {

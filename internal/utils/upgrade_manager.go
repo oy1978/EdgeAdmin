@@ -8,11 +8,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/iwind/TeaGo/Tea"
-	"github.com/iwind/TeaGo/maps"
-	"github.com/iwind/TeaGo/types"
-	stringutil "github.com/iwind/TeaGo/utils/string"
 	"io"
 	"net/http"
 	"os"
@@ -21,6 +16,12 @@ import (
 	"runtime"
 	"strings"
 	"time"
+
+	"github.com/iwind/TeaGo/Tea"
+	"github.com/iwind/TeaGo/maps"
+	"github.com/iwind/TeaGo/types"
+	stringutil "github.com/iwind/TeaGo/utils/string"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
 )
 
 type UpgradeFileWriter struct {

@@ -4,15 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/configs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	rpcerrors "github.com/TeaOSLab/EdgeCommon/pkg/rpc/errors"
-	"github.com/iwind/TeaGo/Tea"
-	"github.com/iwind/TeaGo/actions"
-	"github.com/iwind/TeaGo/logs"
-	"github.com/iwind/TeaGo/maps"
-	"github.com/iwind/gosock/pkg/gosock"
 	"net"
 	"net/http"
 	"os"
@@ -21,6 +12,16 @@ import (
 	"runtime"
 	"strings"
 	"time"
+
+	"github.com/iwind/TeaGo/Tea"
+	"github.com/iwind/TeaGo/actions"
+	"github.com/iwind/TeaGo/logs"
+	"github.com/iwind/TeaGo/maps"
+	"github.com/iwind/gosock/pkg/gosock"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	"github.com/oy1978/EdgeAdmin/internal/configs"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
+	rpcerrors "github.com/oy1978/EdgeCommon/pkg/rpc/errors"
 )
 
 // Fail 提示服务器错误信息

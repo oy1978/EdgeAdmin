@@ -1,8 +1,8 @@
 package logout
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
 	"github.com/iwind/TeaGo/actions"
+	"github.com/oy1978/EdgeAdmin/internal/web/helpers"
 )
 
 type IndexAction actions.Action

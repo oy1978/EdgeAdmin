@@ -2,18 +2,19 @@ package node
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/nodeutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/clusterutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/iwind/TeaGo/actions"
-	"github.com/iwind/TeaGo/maps"
 	"path/filepath"
 	"strings"
+
+	"github.com/iwind/TeaGo/actions"
+	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeAdmin/internal/utils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/nodeutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/clusterutils"
+	"github.com/oy1978/EdgeCommon/pkg/configutils"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 // InstallAction 安装节点

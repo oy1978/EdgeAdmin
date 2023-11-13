@@ -3,8 +3,8 @@
 package mysql
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/setup/mysql/mysqlinstallers/utils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/setup/mysql/mysqlinstallers/utils"
 )
 
 type InstallLogsAction struct {

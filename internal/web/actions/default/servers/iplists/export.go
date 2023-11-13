@@ -2,7 +2,7 @@
 
 package iplists
 
-import "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
+import "github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
 
 type ExportAction struct {
 	actionutils.ParentAction

@@ -1,10 +1,11 @@
 package waf
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/ttlcache"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/iwind/TeaGo/types"
 	"strconv"
+
+	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAdmin/internal/ttlcache"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
 )
 
 type ExportDownloadAction struct {

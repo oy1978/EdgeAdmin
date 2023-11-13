@@ -4,9 +4,9 @@
 package clusterutils
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 func (this *ClusterHelper) filterMenuItems1(items []maps.Map, info *pb.FindEnabledNodeClusterConfigInfoResponse, clusterIdString string, selectedItem string, actionPtr actions.ActionWrapper) []maps.Map {

@@ -1,12 +1,13 @@
 package rpc
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	_ "github.com/iwind/TeaGo/bootstrap"
-	stringutil "github.com/iwind/TeaGo/utils/string"
 	"testing"
 	"time"
+
+	_ "github.com/iwind/TeaGo/bootstrap"
+	stringutil "github.com/iwind/TeaGo/utils/string"
+	"github.com/oy1978/EdgeAdmin/internal/configs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 func TestRPCClient_NodeRPC(t *testing.T) {

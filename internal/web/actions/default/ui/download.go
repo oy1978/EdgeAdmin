@@ -1,7 +1,7 @@
 package ui
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
 )
 
 // DownloadAction 下载指定的文本内容

@@ -4,9 +4,9 @@
 package serverutils
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 func (this *ServerHelper) filterMenuItems(serverConfig *serverconfigs.ServerConfig, menuItems []maps.Map, serverIdString string, secondMenuItem string, actionPtr actions.ActionWrapper) []maps.Map {

@@ -2,14 +2,15 @@ package waf
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/ttlcache"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/dao"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+	"time"
+
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/rands"
-	"time"
+	"github.com/oy1978/EdgeAdmin/internal/ttlcache"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/dao"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/firewallconfigs"
 )
 
 type ExportAction struct {

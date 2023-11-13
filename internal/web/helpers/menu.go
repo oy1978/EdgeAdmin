@@ -4,10 +4,10 @@
 package helpers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	"github.com/oy1978/EdgeCommon/pkg/langs"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
 )
 
 func FindAllMenuMaps(langCode string, nodeLogsType string, countUnreadNodeLogs int64, countUnreadIPItems int64) []maps.Map {

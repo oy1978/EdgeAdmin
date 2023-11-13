@@ -1,11 +1,11 @@
 package servers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/headers"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/users"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
 	"github.com/iwind/TeaGo"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/servers/headers"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/servers/users"
+	"github.com/oy1978/EdgeAdmin/internal/web/helpers"
 )
 
 func init() {

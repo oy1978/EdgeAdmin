@@ -1,8 +1,8 @@
 package recovers
 
 import (
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
 	"github.com/iwind/TeaGo/actions"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
 )
 
 type Helper struct {

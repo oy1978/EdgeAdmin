@@ -1,17 +1,17 @@
 package cluster
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/groups"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/cache"
-	ddosProtection "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/ddos-protection"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/dns"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/ssh"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/system"
-	clusters "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/clusterutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
 	"github.com/iwind/TeaGo"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/groups"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/node"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/cache"
+	ddosProtection "github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/ddos-protection"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/dns"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/ssh"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/system"
+	clusters "github.com/oy1978/EdgeAdmin/internal/web/actions/default/clusters/clusterutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/helpers"
 )
 
 func init() {

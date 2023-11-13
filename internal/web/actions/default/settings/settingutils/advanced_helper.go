@@ -3,12 +3,12 @@
 package settingutils
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
 	"github.com/iwind/TeaGo/actions"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeAdmin/internal/web/helpers"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
 )
 
 type AdvancedHelper struct {

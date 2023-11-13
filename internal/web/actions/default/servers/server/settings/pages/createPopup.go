@@ -2,13 +2,14 @@ package pages
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
+
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAdmin/internal/web/actions/actionutils"
+	"github.com/oy1978/EdgeCommon/pkg/langs/codes"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 )
 
 type CreatePopupAction struct {
@@ -46,7 +47,7 @@ func (this *CreatePopupAction) RunPost(params struct {
 		params.Must.
 			Field("url", params.URL).
 			Require("请输入要显示的URL").
-			Match(	`^(?i)(http|https)://`, "请输入正确的URL")
+			Match(`^(?i)(http|https)://`, "请输入正确的URL")
 	case shared.BodyTypeHTML:
 		params.Must.
 			Field("body", params.Body).

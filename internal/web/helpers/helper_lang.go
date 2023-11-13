@@ -3,10 +3,10 @@
 package helpers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs"
 	"github.com/iwind/TeaGo/actions"
+	"github.com/oy1978/EdgeAdmin/internal/configloaders"
+	teaconst "github.com/oy1978/EdgeAdmin/internal/const"
+	"github.com/oy1978/EdgeCommon/pkg/langs"
 )
 
 type LangHelper struct {

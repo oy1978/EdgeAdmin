@@ -3,9 +3,10 @@
 package numberutils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/numberutils"
-	"github.com/iwind/TeaGo/assert"
 	"testing"
+
+	"github.com/iwind/TeaGo/assert"
+	"github.com/oy1978/EdgeAdmin/internal/utils/numberutils"
 )
 
 func TestFormatBytes(t *testing.T) {
